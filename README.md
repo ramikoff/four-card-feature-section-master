@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://ramikoff.github.io/four-card-feature-section-master/)
-- Live Site URL: [https://ramikoff.github.io/four-card-feature-section-master/]
+- [Solution URL](https://ramikoff.github.io/four-card-feature-section-master/)
+- [Live Site URL](https://ramikoff.github.io/four-card-feature-section-master/)
 
 ## My process
 
