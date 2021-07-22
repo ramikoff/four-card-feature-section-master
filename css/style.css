@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #4c4e61;
+  background: #fafafa; }
+  body p {
+    color: #a3a5ae; }
+  body .wrapper {
+    max-width: 77.77777777777778%;
+    margin: auto; }
+  body header {
+    margin: 70px auto;
+    text-align: center;
+    max-width: 510px;
+    margin-bottom: 4em; }
+    body header .header__subtitle {
+      font-size: 32px;
+      font-weight: 200; }
+    body header .header__title {
+      margin-bottom: 1em; }
+    body header .header__text {
+      margin-bottom: 0; }
+  body .container {
+    margin: 0 auto 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0; }
+    body .container section {
+      max-width: 350px;
+      margin: 16px;
+      padding: 35px;
+      background: #fff;
+      border-radius: 5px;
+      -webkit-box-shadow: 2px 24px 10px rgba(0, 0, 0, 0.1);
+              box-shadow: 2px 24px 10px rgba(0, 0, 0, 0.1); }
+      body .container section h3 {
+        margin-bottom: 20px; }
+      body .container section p {
+        margin-bottom: 40px;
+        font-size: 15px; }
+      body .container section .container__img {
+        text-align: right; }
+    body .container .supervisor {
+      border-top: 4px solid #45d3d3;
+      -webkit-transform: translateY(50%);
+              transform: translateY(50%); }
+    body .container .team-builder {
+      border-top: 4px solid #ea5353; }
+    body .container .calculator {
+      border-top: 4px solid #549ef2;
+      -webkit-transform: translateY(50%);
+              transform: translateY(50%); }
+    body .container .karma {
+      border-top: 4px solid #fcaf4a; }
+
+@media (max-width: 1920px) {
+  body .wrapper .container section {
+    max-width: 400px; }
+  body header {
+    margin-top: 20px; }
+  body .wrapper .container {
+    margin-bottom: 50px; } }
+
+@media (max-width: 1440px) {
+  body .wrapper .container section {
+    max-width: 350px; }
+  body header {
+    margin-top: 70px;
+    margin-bottom: 60px; }
+  body .wrapper .container {
+    margin-bottom: 20px; }
+  body .wrapper {
+    max-width: 95%; } }
+
+@media (max-width: 1366px) {
+  body .wrapper .container section {
+    max-width: 390px; }
+  body header {
+    margin-top: 20px;
+    margin-bottom: 1em; }
+  body .wrapper .container {
+    margin-bottom: 20px; }
+  body .wrapper {
+    max-width: 95%; } }
+
+@media (max-width: 800px) {
+  body header {
+    max-width: 77%; }
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center; }
+  .container section.calculator,
+  .container section.supervisor {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    transform: translateY(0); }
+  body main.wrapper .container section {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media (max-width: 414px) {
+  body header .header__title h1 {
+    font-size: 22px;
+    margin-bottom: 1em; }
+  body header .header__subtitle p {
+    font-size: 22px; } }
